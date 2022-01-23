@@ -31,16 +31,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="my0-5F-p5c">
+                                <rect key="frame" x="182" y="423" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5hJ-hl-xuL"/>
+                                    <constraint firstAttribute="width" constant="50" id="Gva-jh-bT4"/>
+                                </constraints>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="l6v-7F-ANO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="01c-Uy-Wrc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wKh-l0-Tg5" secondAttribute="bottom" id="ETw-2u-iUq"/>
+                            <constraint firstItem="my0-5F-p5c" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GY9-dt-lU7"/>
                             <constraint firstItem="l6v-7F-ANO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HM3-MD-lYn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wKh-l0-Tg5" secondAttribute="trailing" id="IOf-aa-ND1"/>
                             <constraint firstItem="bDB-wd-jdw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PTk-Hn-TVB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l6v-7F-ANO" secondAttribute="trailing" constant="10" id="RvX-rw-sop"/>
+                            <constraint firstItem="my0-5F-p5c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sjo-8f-iVe"/>
                             <constraint firstItem="wKh-l0-Tg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="SpD-Bo-HF2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l6v-7F-ANO" secondAttribute="bottom" id="jLh-KG-rks"/>
                             <constraint firstItem="wKh-l0-Tg5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nhg-uc-g2n"/>
@@ -48,6 +57,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="my0-5F-p5c" id="1cm-QC-rPw"/>
                         <outlet property="getImageButton" destination="l6v-7F-ANO" id="TTK-P0-JPs"/>
                         <outlet property="imageView" destination="wKh-l0-Tg5" id="VjX-Xw-0S5"/>
                         <outlet property="label" destination="bDB-wd-jdw" id="dWG-9h-8IB"/>
@@ -55,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="79"/>
+            <point key="canvasLocation" x="18.840579710144929" y="78.348214285714278"/>
         </scene>
     </scenes>
     <resources>
