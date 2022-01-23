@@ -13,6 +13,7 @@
 		BF97F3F8279DB72E00700F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF97F3F6279DB72E00700F10 /* Main.storyboard */; };
 		BF97F3FA279DB72F00700F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF97F3F9279DB72F00700F10 /* Assets.xcassets */; };
 		BF97F3FD279DB72F00700F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF97F3FB279DB72F00700F10 /* LaunchScreen.storyboard */; };
+		BF97F405279DC23A00700F10 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F404279DC23A00700F10 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF97F3F9279DB72F00700F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF97F3FC279DB72F00700F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF97F3FE279DB72F00700F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF97F404279DC23A00700F10 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BF97F3F0279DB72E00700F10 /* AppDelegate.swift */,
 				BF97F3F2279DB72E00700F10 /* SceneDelegate.swift */,
 				BF97F3F4279DB72E00700F10 /* ViewController.swift */,
+				BF97F404279DC23A00700F10 /* ImageViewController.swift */,
 				BF97F3F6279DB72E00700F10 /* Main.storyboard */,
 				BF97F3F9279DB72F00700F10 /* Assets.xcassets */,
 				BF97F3FB279DB72F00700F10 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				BF97F3F5279DB72E00700F10 /* ViewController.swift in Sources */,
 				BF97F3F1279DB72E00700F10 /* AppDelegate.swift in Sources */,
+				BF97F405279DC23A00700F10 /* ImageViewController.swift in Sources */,
 				BF97F3F3279DB72E00700F10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
