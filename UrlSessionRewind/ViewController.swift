@@ -13,7 +13,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
     @IBAction func getRequest(_ sender: Any) {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {return}
         let session = URLSession.shared
